@@ -1,0 +1,534 @@
+body{
+	margin: 0;
+
+}
+
+/*font css*/
+@font-face{
+	font-family: MyriadPro-Regular;
+	src: url(font/MyriadPro-Regular.ttf);
+}
+
+@font-face{
+	font-family: MyriadPro-Regular;
+	src: url(font/MyriadPro-Regular.eot);
+}
+
+/*font css*/
+
+
+.navbar-default{
+	background-color: transparent;
+	border:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    /*font-weight: bold;*/
+    font-size: 16px;
+    line-height: 10px;
+
+}
+
+.header{
+	background: url(background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	min-height: auto;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+.header_content p{
+	font-family:'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 1.1;
+	color: white;
+	margin-top: 28%;
+}
+
+.header_content button{
+	font-family: 'Titillium Web', sans-serif;
+	color: white; 
+	background-color: #EB7D4C;
+	border: none;
+	font-size: 18px;
+	padding: 15px 30px;
+	margin-top: 6%;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
+
+
+.Services_section{
+	background-color: #17C1A4;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+
+.services_content h1{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: bold;
+	color: white;
+	margin-top: 10%;
+}
+
+.services_content hr{
+	border: none;
+	height: 4px;
+	width: 12%;
+	background-color: #867575;
+
+}
+
+.services_content p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	line-height: 1.1;
+	color: white;
+
+}
+
+
+.service img{
+	height: 120px;
+}
+.service h4{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.service p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	line-height: 1.1;
+}
+
+.space{
+	margin-top: 65px;
+	margin-bottom: 65px;
+	
+}
+
+
+.team_section{
+	background-color: #e7f1f8;
+	text-align: center;
+	width: 100%;
+}
+
+.team_section_content h2{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-top: 15%;
+}
+
+.team_section_content hr{
+	border: none;
+	height: 4px;
+	width: 12%;
+	background-color: #867575;
+}
+.team_section_content p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.1;
+}
+
+.icon img{
+	width: 25px;
+	height: 25px;
+}
+
+.team_content{
+	margin-top: 10px;
+	margin-bottom: 70px;
+}
+
+.team_content h4{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	line-height: 1.1;
+	font-weight: bold;
+}
+
+.team_content p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	color: #30bae7;
+	line-height: 1.1;
+	font-weight: lighter;
+}
+
+.team_content h5{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	line-height: 1.1;
+	font-weight: lighter;
+}
+
+.skill_section{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.skill_section h2{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-top: 10%;
+}
+
+.skill_section hr{
+	border: none;
+	height: 3px;
+	width: 12%;
+	background-color: #867575;
+}
+
+.skill_section p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.1;
+}
+
+.skill img{
+	margin-top: 50px;
+}
+
+.skill h5{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.portfolio_section{
+	background-color: #FFDC98;
+	text-align: center;
+	width: 100%;
+}
+
+.portfolio_section h2{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-top: 10%;
+}
+
+.portfolio_section hr{
+	border: none;
+	height: 3px;
+	width: 12%;
+	background-color: #e5c37f;
+}
+
+.portfolio_section p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.1;
+}
+
+.portfolio h5{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	line-height: 1.1;
+}
+
+.portfolio img{
+	width: 100%;
+}
+.portfolio_pic1{
+	margin-top: 50px;
+	
+}
+.portfolio_pic2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.portfolio_pic2 button{
+	margin-top: 30px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #17c2a4;
+	font-size: 16px;
+	padding: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+.about_section{
+	background-color: #d74680;
+	text-align: center;
+	width: 100%;
+}
+
+.about_section h2{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-top: 10%;
+	color: white;
+}
+
+.about_section hr{
+	border: none;
+	height: 3px;
+	width: 12%;
+	background-color: #b73c6d;
+	}
+
+.about_section p{
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.1;
+	font-size: 18px;
+	color: white;
+}
+
+.members1{
+	margin-top: 40px;
+	
+
+}
+
+.members2{
+	margin-top: 20px;
+	margin-bottom: 70px;
+
+}
+
+.mem_content p{
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 15px;
+	line-height: 1.1;
+}
+
+.mem_content h4{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.1;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 15px;
+}
+.mem_content h5{
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.1;
+	color: #fdd78a;
+	text-align: left;
+	margin-left: 15px;
+}
+
+.touch_section{
+	background-color: #3c5499;
+	text-align: center;
+	width: 100%;
+}
+
+.touch_section h2{
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-top: 8%;
+	color: white;
+}
+
+.touch_section hr{
+	border: none;
+	height: 3px;
+	width: 12%;
+	background-color: #273a71;
+}
+
+.touch_section p{
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	font-size: 13.5px;
+	line-height: 1.1;
+	font-weight: lighter;
+}
+
+.form1 input{
+	width: 50%;
+	border-radius: 3px;
+	margin-top: 40px;
+	border: none;
+	padding: 6px;
+	background-color: #273a71;
+	
+}
+
+.form2 input{
+	width: 58.6%;
+	margin-top: 30px;
+	height: 190px;
+	border: none;
+	border-radius: 3px;
+	padding: 6px;
+	background-color: #273a71;
+}
+
+.button, input, select, textarea{
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.touch_section button{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #30bae7;
+	font-size: 14px;
+	padding: 15px 35px ;
+	border: none;
+	border-radius: 5px;
+	
+}
+
+.footer{
+	background-color: #344b8e;
+	text-transform: uppercase;
+
+}
+
+.footer ul li{
+	margin-left: 60px;
+		
+}
+.footer ul li a{
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+.nav>li>a:hover {
+	background-color: #344b8e;
+	color: #30bae7;
+}
+
+
+/*media query*/
+
+@media (max-width: 767px) { 
+	
+	.header{
+		height: auto;
+	}
+	.navbar-default{
+	background-color: #EB7D4C;
+	}
+	.navbar-brand>img {
+	    margin-top: -9px;
+	    margin-left: 2px;
+	}
+
+	.header_content p{
+		font-size: 38px;
+		margin-top: 115px;
+	}
+	.header_content button{
+		font-size: 16px;
+		padding: 13px 25px;
+	}
+	.services_content h1{
+		font-size: 38px;
+		margin-top: 55px;
+	}
+	.skill_section h2{
+		font-size: 35px;
+		margin-top: 50px;
+	}
+	.portfolio_section h2{
+		font-size: 35px;
+		margin-top: 50px;
+	}
+
+	.portfolio_pic2 button{
+	font-size: 14px;
+	padding: 15px;
+	}
+
+	.about_section h2{
+		font-size: 38px;
+		margin-top: 50px;
+	}
+	.touch_section h2{
+		font-size: 28px;
+		margin-top: 50px;
+	}
+	.touch_section button{
+		font-size: 12px;
+		padding: 12px 30px
+	}
+	.form1 input {
+    width: 58%;
+	}
+	.form2 input{
+		height: 140px;
+	}
+	.services_content h1 {
+    font-size: 32px;
+	}
+	.header_content p {
+    font-size: 23px;
+    font-weight: bold;
+	}
+	.header_content button {
+    font-size: 13px;
+    padding: 11px 17px;
+	}
+
+	
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+	
+
+
+ }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
